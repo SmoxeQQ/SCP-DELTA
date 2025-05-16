@@ -1,0 +1,238 @@
+        @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+        @import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+ 
+        :root {
+            --red: #c00;
+            --dark-red: #800;
+            --black: #111;
+            --gray: #444;
+            --light-gray: #ddd;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: var(--light-gray);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1857172427737246959/BD70F4E83BF35718C9B8FEF25C8411D8A84B3F26/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false");
+            background-attachment: fixed;
+            cursor : crosshair;
+            animation: slideIn 1s alternate;
+        }
+        body::selection {
+            background-color: #000;
+        }
+        .console {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(7, 51, 0, 0.85);
+            background-color: rgba(0, 0, 0, 0.85);
+            border-left: 1px solid var(--gray);
+            border-right: 1px solid var(--gray);
+            border-top: 1px solid var(--gray);
+            border-bottom: 1px solid var(--gray);
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.85);
+            border-left: 1px solid var(--red);
+            border-right: 1px solid var(--red);
+            border-bottom: 1px solid var(--red);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--red);
+        }
+
+        h1 {
+            color: var(--red);
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(200, 0, 0, 0.5);
+            letter-spacing: 2px;
+            animation: slideIn 5s alternate;
+        }
+
+        h2 {
+            color: var(--red);
+            border-bottom: 1px solid var(--gray);
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+            animation: slideIn 3s alternate;
+        }
+
+        h3 {
+            color: var(--light-gray);
+            font-size: 1.4em;
+            animation: slideIn 3s alternate;
+        }
+
+        a {
+            color: var(--red);
+            text-decoration: none;
+            transition: color 0.3s;
+            animation: slideIn 3s alternate;
+        }
+
+        a:hover {
+            color: #f00;
+            text-decoration: underline;
+            cursor : cell ;
+        }
+
+        .server-card1 {
+            margin-bottom: 40px;
+            padding: 25px;
+            background-color: rgba(30, 30, 30, 0.7);
+            border-left: 4px solid var(--red);
+            
+            background-image: url("https://media.discordapp.net/attachments/1343943588299538492/1372940924610416733/Picsart_25-05-16_20-21-40-967.png?ex=68289a60&is=682748e0&hm=9433aa96eb521c77ad595002b1505ae66b1736f0f22ae95c9bb504e39e0ba778&=&format=webp&quality=lossless&width=352&height=547");
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: contain;
+        }
+
+        .server-card2 {
+            margin-bottom: 40px;
+            padding: 25px;
+            background-color: rgba(30, 30, 30, 0.7);
+            border-left: 4px solid var(--red);
+            
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-position: right 120px;
+            background-size: contain;
+        }
+
+        .server-card3 {
+            margin-bottom: 40px;
+            padding: 25px;
+            background-color: rgba(30, 30, 30, 0.7);
+            border-left: 4px solid var(--red);
+            
+            background-image: url("https://media.discordapp.net/attachments/1343943588299538492/1372941143255548065/Picsart_25-05-16_20-15-00-690.png?ex=68289a94&is=68274914&hm=58151213b70af201647e492173a5a46ee5665c96e7b0c69bf17f360333955b13&=&format=webp&quality=lossless&width=547&height=547");
+            background-repeat: no-repeat;
+            background-position: right 10px;
+            background-size: 500px;
+        }
+
+        .server-card4 {
+            margin-bottom: 40px;
+            padding: 25px;
+            background-color: rgba(30, 30, 30, 0.7);
+            border-left: 4px solid var(--red);
+            
+            background-image: url("https://media.discordapp.net/attachments/1343943588299538492/1372941128889798748/Picsart_25-05-16_20-18-45-274.png?ex=68289a91&is=68274911&hm=60dd0fc553ac92a91a54ae739fc1ad0db8b0153e782f7f5a29796dfcc6fae041&=&format=webp&quality=lossless&width=500&height=547");
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: contain;
+        }
+
+
+        .warning {
+            background-color: rgba(100, 0, 0, 0.3);
+            color: #fff;
+            padding: 20px;
+            border: 1px solid var(--red);
+            margin: 30px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor : cell ;
+        }
+        .warning:hover {
+            background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1857172427737246959/BD70F4E83BF35718C9B8FEF25C8411D8A84B3F26/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false");
+        }
+
+        .server-links {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--gray);
+        }
+
+        .server-links a {
+            margin-right: 15px;
+            color: var(--light-gray);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid var(--gray);
+            font-size: 0.9em;
+            color: var(--gray);
+            margin-top: 50px;
+        }
+
+        .discord-box {
+            background-color: rgba(88, 101, 242, 0.2);
+            border: 1px solid #5865F2;
+            padding: 15px;
+            margin: 30px 0;
+            text-align: center;
+            border-radius: 2px;
+        }
+
+        .discord-link {
+            background-color: #5865F2;
+            color: white;
+            font-family: Tomorrow, sans-serif;
+            padding: 12px 50px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: lighter;
+            transition: background-color 0.3s;
+            clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+            font-family: "Russo One", sans-serif;
+            text-shadow: 0px 5px 18px rgb(255, 255, 255);
+            clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%);
+        }
+
+        @keyframes slideIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+        }
+
+        .discord-link:hover {
+            background-color: #4752C4;
+            text-decoration: none;
+            text-shadow: 0px 5px 18px rgba(255, 0, 0, 1);
+            cursor : cell ;
+        }
+
+        .online-counter {
+            font-size: 1.2em;
+            color: var(--red);
+            margin: 20px 0;
+            visibility: hidden;
+        }
+
+        .blink {
+            animation: blink 1.5s infinite;
+            font-family: "Russo One", sans-serif;
+        }
+        @keyframes blink {
+            0% { opacity: 0.2; }
+            50% { opacity: 0.3; }
+            100% { opacity: 0.2; }
+        }
+
+        .site-logo {
+            max-width: 500px;
+            margin-top: 10px;
+        }
+        .site-logo::selection {
+            background-color: #000;
+        }
+        .dates::selection {
+            background-color: #ffffff;
+        }
